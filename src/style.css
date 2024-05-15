@@ -84,9 +84,16 @@ button:focus {
 
 .navbar {
   position: fixed !important;
+  top:30px;
+  right: 10vw;
+  left: 10vw;
+  border-radius: 1rem;
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
   font-size: 1.2rem !important;
+  backdrop-filter: blur(10px);
+    background-color: #ebebeb1a;
+    width: 80vw;
 }
 
 .navbar-toggler {

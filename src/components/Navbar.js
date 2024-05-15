@@ -33,7 +33,7 @@ function NavBar() {
   return (
     <Navbar
       expanded={expand}
-      fixed="top"
+      // fixed="top"
       expand="md"
       className={navColour ? "sticky" : "navbar"}
     >

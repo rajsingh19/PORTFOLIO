@@ -22,11 +22,27 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                <strong className="main-name"> RAJ SINGH</strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div style={{ padding:"0px 50px", textAlign: "left" }}>
                 <Type />
+              </div>
+
+              <div style={{ padding:"0px 50px", textAlign: "left" }}>
+                
+            <p className="home-about-body">
+              I fell in love with programming and I have at least learnt
+              something, I think… 🤷‍♂️
+              <br />
+              <br />I am fluent in classics like
+              <i>
+                <b className="purple"> C++,C,C#,JAVASCRIPT. </b>
+              </i>
+              <br />
+              <br />
+            
+            </p>
               </div>
             </Col>
 
@@ -40,8 +56,7 @@ function Home() {
             </Col>
           </Row>
         </Container>
-      </Container>
-      <Home2 />
+      </Container>  
     </section>
   );
 }
