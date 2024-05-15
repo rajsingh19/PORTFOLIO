@@ -87,6 +87,7 @@ button:focus {
   top:30px;
   right: 10vw;
   left: 10vw;
+  z-index: 2000;
   border-radius: 1rem;
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
