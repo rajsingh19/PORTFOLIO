@@ -749,3 +749,20 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+.rajimg{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .rajimg{
+    position: static;
+  }
+  .raj{
+
+  }
+}

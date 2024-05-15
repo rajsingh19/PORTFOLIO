@@ -4,6 +4,7 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import raj from '../../Assets/raj.png'
 
 function Home() {
   return (
@@ -39,19 +40,24 @@ function Home() {
               <i>
                 <b className="purple"> C++,C,C#,JAVASCRIPT. </b>
               </i>
+              
               <br />
               <br />
             
             </p>
+            
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={5}
+            className="rajimg"
+            
+            >
               <img
-                src={homeLogo}
+                src={raj}
                 alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                className="img-fluid raj"
+                style={{ height:'80vh' }}
               />
             </Col>
           </Row>
