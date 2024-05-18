@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import Devil from "../../Assets/Projects/Devil.png";
+import FaceMask from "../../Assets/Projects/Face Mask.png";
+import VRROOM from "../../Assets/Projects/VR ROOM.png";
+import Lion from "../../Assets/Projects/Lion.png";
+import GPS from "../../Assets/Projects/GPS.jpg";
+import Butterfly from "../../Assets/Projects/Butterfly.png";
 
 function Projects() {
   return (
@@ -23,68 +23,79 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={Lion}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Lion Mask Filter"
+              description="I designed a LION mask filter on Spark AR for Instagram. When applied, users' faces are seamlessly adorned with a majestic lion mask, adding a touch of wildness to their selfies."
+              ghLink="https://github.com/rajsingh19/LION-MASK-FILTER"
+              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={Butterfly}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Butterfly Filter"
+              description="I created a butterfly filter using Spark AR for Instagram. When users activate it, their face transforms to resemble a butterfly, creating a magical, metamorphic effect."
+              ghLink="https://github.com/rajsingh19/Butterfly-Filter"
+              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={VRROOM}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Interview Room"
+              description="I developed a comprehensive virtual platform designed to facilitate the learning of soft skills. This platform comprises various interactive panels, including a virtual meeting room, an interview room, and an auditorium. Each of these panels serves as real-life scenarios where users can practice and enhance their soft skills.
+
+               AI models play the role of interviewers. These AI models are programmed to conduct mock interviews. They ask questions, evaluate responses, and offer feedback to help users improve their interviewing skills. The virtual meeting room allows users to participate in or conduct virtual meetings, fostering skills like communication, teamwork, and leadership. The auditorium is designed for presentations and public speaking practice, enabling users to build confidence and polish their presentation abilities. 
+              
+              This platform offers a comprehensive, immersive learning experience, leveraging AI technology to provide practical, hands-on training in essential soft skills."
+              ghLink="https://github.com/rajsingh19/Interview-Room"
+                       
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={Devil}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Devil-Filter"
+              description="Create a devil face filter in Spark AR Studio by adding horns, red skin, and glowing eyes, then publish it to Instagram for users to apply in their stories and posts."
+              ghLink="https://github.com/rajsingh19/Devil-Filter"
+              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={GPS}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Location Tracker"
+              description="I developed a GPS tracker project utilizing Unity3D with ARKit and ARCore to place AR objects at specific GPS coordinates. This project leverages Mapbox for precise geolocation and integrates GameSparks for backend data management. Here's a step-by-step guide:
+
+              1. **Mapbox Integration**: Set up Mapbox SDK in Unity to accurately track GPS locations.
+              2. **ARKit and ARCore**: Use these frameworks to overlay AR objects at designated GPS coordinates, providing an immersive augmented reality experience.
+              3. **GameSparks Database**: Implement GameSparks to store and retrieve messages tagged at specific locations, ensuring data persistence and easy access.
+              
+              This setup not only creates a robust GPS-based AR experience but also encourages social interaction through geotagged messages and AR content."
+              ghLink="https://github.com/rajsingh19/Location-Tracker/tree/main"
+              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={FaceMask}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Face Mask Filter"
+              description="About
+              I designed a face mask filter on Spark AR for Instagram. Upon use, it adorns the user's face with an appealing mask, enhancing their appearance with creativity and style."
+              
+              ghLink="https://github.com/rajsingh19/Face-Mask-Filter"
+              
             />
           </Col>
         </Row>
