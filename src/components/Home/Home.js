@@ -38,7 +38,7 @@ function Home() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++,C,C#,JAVASCRIPT. </b>
+                <b className="purple"> C++,C,C#,JS,ReactJS,NextJS. </b>
               </i>
               
               <br />
@@ -60,6 +60,8 @@ function Home() {
                 style={{ height:'80vh' }}
               />
             </Col>
+
+            
           </Row>
         </Container>
       </Container>  

@@ -4,6 +4,10 @@ import { CgCPlusPlus } from "react-icons/cg";
 import { FaUnity } from "react-icons/fa6";
 import { SiSparkar } from "react-icons/si";
 import { SiBlender } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
+import { SiFirebase } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
+
 import vuforia from '../../Assets/techstack/vuforia.png'
 import google from '../../Assets/techstack/google.png'
 
@@ -21,8 +25,19 @@ function Techstack() {
       <SiBlender />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+      <FaReact />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
       <img src={vuforia} alt="" srcset="" style={{width:'40%'}}/>
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      <SiFirebase />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+      <TbBrandNextjs />
+      </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
       <img src={google} alt="" srcset="" style={{width:'40%'}}/>
       </Col>

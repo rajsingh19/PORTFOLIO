@@ -9,9 +9,14 @@ import Lion from "../../Assets/Projects/Lion.png";
 import GPS from "../../Assets/Projects/GPS.jpg";
 import Butterfly from "../../Assets/Projects/Butterfly.png";
 import society from "../../Assets/Projects/society.jpg";
-import transitionmap  from "../../Assets/Projects/transition map.jpg";
-import heavenestate  from "../../Assets/Projects/heavenestate.jpg";
-
+import transitionmap from "../../Assets/Projects/transition map.jpg";
+import heavenestate from "../../Assets/Projects/heavenestate.jpg";
+import solar from "../../Assets/Projects/solar.png";
+import neAR from "../../Assets/Projects/near.png";
+import house from "../../Assets/Projects/bus.png";
+import card from "../../Assets/Projects/card.png";
+import house1 from "../../Assets/Projects/house.png";
+import virtual from "../../Assets/Projects/virtual.png";
 
 function Projects() {
   return (
@@ -25,81 +30,67 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={4} className="project-card">
+
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={society}
+              imgPath={house}
               isBlog={false}
               title="Real Estate -AR"
-              description="About
-              I am creating an AR app where, when a user scans a target image, virtual buildings appear in the real world. The user can rotate these buildings to view them in 360 degrees within the real world."
-              
-             
-              
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Lion}
-              isBlog={false}
-              title="Lion Mask Filter"
-              description="I designed a LION mask filter on Spark AR for Instagram. When applied, users' faces are seamlessly adorned with a majestic lion mask, adding a touch of wildness to their selfies."
-              ghLink="https://github.com/rajsingh19/LION-MASK-FILTER"
-              
+              description="I am developing an AR app that transforms 2D real estate images into interactive 3D buildings in the real world. When users scan a target image, virtual buildings appear, which they can rotate and explore in 360°. The goal is to make property visualization more realistic, engaging, and growth-driven, replacing the traditional, static way of viewing real estate."
+              driveLink="YOUR_DRIVE_VIDEO_LINK_HERE"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={heavenestate}
+              imgPath={solar}
               isBlog={false}
-              title="VirtuBuild -APK"
-              description="About
-             VirtuBuild is a ar/vr marketing platform where users can have a look at properties before it is built in AR and VR encouraging remote marketing,informed decision making and save staging costs for builders"
-              
+              title="Edu-AR"
+              description="Edu-AR is an interactive learning platform that uses Augmented Reality to make studying engaging and practical. Users can choose their stream—like Engineering, Medical, or Science and scan any 2D image from books to view its 3D model in the real world. like, scanning a human lungs, or the solar system shows detailed 3D visuals for immersive learning"
+              driveLink="YOUR_DRIVE_VIDEO_LINK_HERE"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Butterfly}
+              imgPath={neAR}
               isBlog={false}
-              title="Butterfly Filter"
-              description="I created a butterfly filter using Spark AR for Instagram. When users activate it, their face transforms to resemble a butterfly, creating a magical, metamorphic effect."
-              ghLink="https://github.com/rajsingh19/Butterfly-Filter"
-              
+              title="neAR"
+              description="neAR is an AR-based app that lets users create and share real-world memories. By capturing a photo at any location, it appears as a floating AR image when viewed later through the app. With GPS integration, photos stay fixed to their exact spot, and a radar system shows nearby users. The app also includes a messaging feature for easy interaction and connection."
+              driveLink="YOUR_DRIVE_VIDEO_LINK_HERE"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={transitionmap}
+              imgPath={card}
               isBlog={false}
-              title="Real Estate -AR"
-              description="About
-              I am creating an AR app where users can change the buildings and view the modified ones. In this app, the buildings also auto-rotate."
-              
-             
-              
+              title="Bussiness-Card"
+              description="AR Business Card is an interactive and innovative way to present professional identity using Augmented Reality (AR). Users can scan their card to view a 3D version with an intro video, 3D icon buttons for LinkedIn, Instagram, and call options, plus a personalized 3D avatar. It transforms traditional business cards into a modern, engaging, and information-rich AR experience."
+              driveLink="YOUR_DRIVE_VIDEO_LINK_HERE"
             />
           </Col>
-  
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={FaceMask}
+              imgPath={house1}
               isBlog={false}
-              title="Face Mask Filter"
-              description="About
-              I designed a face mask filter on Spark AR for Instagram. Upon use, it adorns the user's face with an appealing mask, enhancing their appearance with creativity and style."
-              
-              ghLink="https://github.com/rajsingh19/Face-Mask-Filter"
-              
+              title="ARchitect"
+              description="ARchitect is an advanced Augmented Reality (AR) platform that helps users visualize real estate properties in immersive 3D and AR. Users can preview models, walk through interiors, and customize designs. With accurate scale, realistic visuals, and collaboration tools, ARchitect makes property exploration and interior design more interactive and efficient."
+              driveLink="YOUR_DRIVE_VIDEO_LINK_HERE"
             />
           </Col>
 
-          
-         
-         
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={virtual}
+              isBlog={false}
+              title="Vizzle"
+              description="Vizzle is a virtual try-on platform that uses Augmented Reality (AR) to let users try products like goggles, hats, and jewelry in real time. iPhone users can enjoy a full-body virtual try-on for clothes and accessories. By offering immersive AR experiences, Vizzle makes online shopping more interactive, personalized, and convenient for everyone."
+              driveLink="YOUR_DRIVE_VIDEO_LINK_HERE"
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
