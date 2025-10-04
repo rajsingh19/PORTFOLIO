@@ -30,6 +30,48 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+         
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={house1}
+              isBlog={false}
+              title="ARchitect"
+              description="ARchitect is an advanced Augmented Reality (AR) platform that helps users visualize real estate properties in immersive 3D and AR. Users can preview models, walk through interiors, and customize designs. With accurate scale, realistic visuals, and collaboration tools, ARchitect makes property exploration and interior design more interactive and efficient."
+              driveLink="https://drive.google.com/file/d/1_CmxgRTIgvADMW5hjEnz_fjZHImQF5cZ/view?usp=drivesdk"
+            />
+          </Col>
+
+         
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={solar}
+              isBlog={false}
+              title="Edu-AR"
+              description="Edu-AR is an interactive learning platform that uses Augmented Reality to make studying engaging and practical. Users can choose their stream—like Engineering, Medical, or Science and scan any 2D image from books to view its 3D model in the real world. like, scanning a human lungs, or the solar system shows detailed 3D visuals for immersive learning"
+              driveLink="https://drive.google.com/file/d/1TjiKNfVvHgjIAlkN5GxJ_As1QFsMdj_W/view?usp=drivesdk"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={neAR}
+              isBlog={false}
+              title="neAR"
+              description="neAR is an AR-based app that lets users create and share real-world memories. By capturing a photo at any location, it appears as a floating AR image when viewed later through the app. With GPS integration, photos stay fixed to their exact spot, and a radar system shows nearby users. The app also includes a messaging feature for easy interaction and connection."
+              driveLink="https://drive.google.com/file/d/1L9uevRGtLDW8bjGKkC9wbn0fu4Sh7-SC/view?usp=drivesdk"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={card}
+              isBlog={false}
+              title="Bussiness-Card"
+              description="AR Business Card is an interactive and innovative way to present professional identity using Augmented Reality (AR). Users can scan their card to view a 3D version with an intro video, 3D icon buttons for LinkedIn, Instagram, and call options, plus a personalized 3D avatar. It transforms traditional business cards into a modern, engaging, and information-rich AR experience."
+              driveLink="https://drive.google.com/file/d/1cQxauVFhdsGaQBHdrYuqGC1HvYGll8GO/view?usp=drivesdk"
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -43,51 +85,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={solar}
-              isBlog={false}
-              title="Edu-AR"
-              description="Edu-AR is an interactive learning platform that uses Augmented Reality to make studying engaging and practical. Users can choose their stream—like Engineering, Medical, or Science and scan any 2D image from books to view its 3D model in the real world. like, scanning a human lungs, or the solar system shows detailed 3D visuals for immersive learning"
-              driveLink="YOUR_DRIVE_VIDEO_LINK_HERE"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={neAR}
-              isBlog={false}
-              title="neAR"
-              description="neAR is an AR-based app that lets users create and share real-world memories. By capturing a photo at any location, it appears as a floating AR image when viewed later through the app. With GPS integration, photos stay fixed to their exact spot, and a radar system shows nearby users. The app also includes a messaging feature for easy interaction and connection."
-              driveLink="YOUR_DRIVE_VIDEO_LINK_HERE"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={card}
-              isBlog={false}
-              title="Bussiness-Card"
-              description="AR Business Card is an interactive and innovative way to present professional identity using Augmented Reality (AR). Users can scan their card to view a 3D version with an intro video, 3D icon buttons for LinkedIn, Instagram, and call options, plus a personalized 3D avatar. It transforms traditional business cards into a modern, engaging, and information-rich AR experience."
-              driveLink="YOUR_DRIVE_VIDEO_LINK_HERE"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={house1}
-              isBlog={false}
-              title="ARchitect"
-              description="ARchitect is an advanced Augmented Reality (AR) platform that helps users visualize real estate properties in immersive 3D and AR. Users can preview models, walk through interiors, and customize designs. With accurate scale, realistic visuals, and collaboration tools, ARchitect makes property exploration and interior design more interactive and efficient."
-              driveLink="YOUR_DRIVE_VIDEO_LINK_HERE"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={virtual}
               isBlog={false}
               title="Vizzle"
               description="Vizzle is a virtual try-on platform that uses Augmented Reality (AR) to let users try products like goggles, hats, and jewelry in real time. iPhone users can enjoy a full-body virtual try-on for clothes and accessories. By offering immersive AR experiences, Vizzle makes online shopping more interactive, personalized, and convenient for everyone."
-              driveLink="YOUR_DRIVE_VIDEO_LINK_HERE"
+              driveLink="https://drive.google.com/file/d/1dcrs9uxVOYaR0uxal501Wt2ZXqiaqqq-/view?usp=drivesdk"
             />
           </Col>
 
